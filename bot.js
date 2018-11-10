@@ -284,6 +284,66 @@ ${prefix}t ⇏ تغيير تويتش البوت
    }
    });
  
+
+
+
+client.on("ready", () => {
+  function blue() {
+    client.guilds.get('505476184214208512').roles.find("name", "Rainbow").setColor("RANDOM");
+  };
+  setInterval(blue, 3000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
  
 client.login(process.env.BOT_TOKEN);
